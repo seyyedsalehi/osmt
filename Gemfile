@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 
+ruby "1.9.2"
 gem 'rails'
 gem 'rake'
 gem 'oa-openid', '0.2.0',:require => 'omniauth/openid'
@@ -42,4 +43,5 @@ group :test do
 gem 'libnotify'  
   gem 'ruby-debug19'
 end
+
 
