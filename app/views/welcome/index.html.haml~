@@ -8,7 +8,8 @@
       .h2 SameCup is
       %br/
       %span{:style => "font-size: 14px;line-height: 19px;"}
-        %a{:class=>"video", :href=>"http://www.youtube.com/v/wpzUKW48M1U", :target=>"_blank"}
+     /   %a{:class=>"video", :href=>"http://www.youtube.com/v/wpzUKW48M1U", :target=>"_blank"}
+        %img{:alt => "Twitter of SameCup", :border => "0", :src => "/images/twitter.png"}
           %img{:src=>"/images/video.png", :align=>"left"}
         %b scrum board
         .g-clear-20
