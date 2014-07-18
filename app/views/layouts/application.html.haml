@@ -20,14 +20,13 @@
         - if @project.nil?
           %li= link_to "Home", root_path, :class => yield(:menu) == 'home' ? 'selected-menu' : ''
           %li= link_to "Tour", tour_path, :class => yield(:menu) == 'tour' ? 'selected-menu' : ''
-          %li
-            %a{:href => "http://blog.samecup.com"} Blog
+         
     #head
       .logo.float-left
         %a{:href => "/"}
           %img{:src => "/images/samecup_logo.png", :height => "40px", :border => "0"}/
         - if @project.nil? || @project.id.nil?
-          %a{:href => "/"} SameCup
+          %a{:href => "/"} OSMT
         - else
           = link_to @project.name, project_path(@project)
       .users-menu.float-left
@@ -65,7 +64,7 @@
     :javascript
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-15094691-1']);
-      _gaq.push(['_setDomainName', '.samecup.com']);
+      _gaq.push(['_setDomainName', '.osmt.com']);
       _gaq.push(['_trackPageview']);
 
       (function() {
