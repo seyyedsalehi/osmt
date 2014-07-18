@@ -14,9 +14,7 @@
   <div id="menu">
     <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="/prices">Prices</li>
-      <li><a href="/tour">Tour</a></li>
-      <li><a href="http://blog.samecup.com">Blog</a></li>
+     <li><a href="/tour">Tour</a></li>
     </ul>
   </div>
   <div id="head" >
