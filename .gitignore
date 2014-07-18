@@ -1,0 +1,13 @@
+.bundle
+db/*.sqlite3
+cache/
+log/*.log
+tmp/**/*
+config/database.yml
+config/config.yml
+db/schema.rb
+.DS_Store
+config/initializers/mailer.rb
+*.sw?
+vendor/bundle/**/*
+Procfile
