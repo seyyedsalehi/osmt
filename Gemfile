@@ -9,6 +9,8 @@ gem 'devise'
 gem 'devise_invitable'
 gem 'haml'
 gem 'jquery-rails', '>= 1.0.12'
+gem 'pg', '0.15.1'
+
 
 group :development do
 #  gem 'sqlite3'
@@ -21,7 +23,7 @@ end
 
 group :test do
   gem 'nokogiri','1.4.7'
-  gem 'sqlite3'
+#  gem 'sqlite3'
   gem 'database_cleaner'
   
   gem 'rspec'
