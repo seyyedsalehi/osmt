@@ -45,12 +45,4 @@
     %a{:href => "http://twitter.com/samecup"}
       %img{:alt => "Twitter of SameCup", :border => "0", :src => "/images/twitter.png"}/
     .g-clear-20
-    .h3 Last news
-    - cache 'rss-news', :expire => 60.minutes do
-      - feed = get_rss
-      - unless feed.nil?
-        - feed.items[0..5].each do |entry|
-          .newsitem
-            = link_to h(entry.title), entry.link
-            %br/
-            %span= raw truncate(entry.description.gsub(/<\/?[^>]*>/, ""), :length => 100)
+    .h3 test
