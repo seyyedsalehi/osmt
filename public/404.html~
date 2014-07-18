@@ -27,6 +27,19 @@
     </div>
     <div style="clear:both"></div>
   </div>
+<div id="content">
+  <div style="margin-left:auto; margin-right:auto; width: 400px;">
+    <h1>Oops, web address is wrong<br/></h1>
+    <h2>Probably there is mistype in your web address(URL), check again and make sure it's correct. <br/> 
+      If it won't help, have a cup of coffee and send us email.<br/>
+      <center> 
+      <a style="color:orange"href="mailto:support@samecup.com?subject=[404] Site problem&body=Hi, I'm expiriencing problem with reaching some page:">
+        Report a problem</a>
+    </center>
+    <img src="/images/coffeecup2.png">
+  </div>
+  <div style="clear:both"></div>
+</div>
 <div style="text-align:center; padding-top: 100px;padding-bottom: 20px;"> 
    <a href="/termsofuse">Terms of Use</a> | <a href="/privacypolicy">Privacy Policy</a>
   </div>
