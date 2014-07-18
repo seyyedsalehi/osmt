@@ -11,7 +11,8 @@ gem 'haml'
 gem 'jquery-rails', '>= 1.0.12'
 
 group :development do
-  gem 'sqlite3'
+#  gem 'sqlite3'
+  gem 'pg', '0.15.1'
 #  gem 'mysql2', '~> 0.2.7' #recommended way
   gem 'foreman'
   gem 'rspec-rails'
